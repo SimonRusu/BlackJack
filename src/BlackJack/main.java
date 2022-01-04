@@ -1,5 +1,6 @@
 package BlackJack;
 
+import static BlackJack.BlackJack.addPlayers;
 import Model.Ace;
 import Model.Card;
 import Model.Jack;
@@ -18,13 +19,6 @@ public class main {
         test2();
         test3();
         test4();
-    }
-    
-    public static void addPlayers(int num, List<Player> players){
-        for(int i=0; i<=num; i++){
-            Player p = new Player(i);
-            players.add(p);
-        }
     }
     
     public static void test1()

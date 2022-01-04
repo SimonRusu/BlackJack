@@ -75,4 +75,11 @@ public class BlackJack {
         return winners;
     }
     
+    public static void addPlayers(int num, List<Player> players){
+        for(int i=0; i<=num; i++){
+            Player p = new Player(i);
+            players.add(p);
+        }
+    }
+    
 }
